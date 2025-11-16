@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    transition: background 0.3s, color 0.3s;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #1e1e1e;
+    color: #f1f1f1;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background: linear-gradient(135deg, #007bff, #00bcd4);
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+
+/* Dark Mode Header */
+body.dark-mode header {
+    background: linear-gradient(135deg, #333, #222);
+}
+
+/* Dark Mode Cards */
+body.dark-mode .card {
+    background: #333;
+    color: #fff;
+    box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.1);
+}
+
+/* Sections */
+section {
+    max-width: 85%;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Dark Mode Sections */
+body.dark-mode section {
+    background: #292929;
+    color: #f1f1f1;
+}
+
+/* Buttons */
+button {
+    background: #007bff;
+    color: white;
+    padding: 12px 18px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.2s;
+}
+
+button:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Dark Mode Buttons */
+body.dark-mode button {
+    background: #444;
+    color: white;
+}
+
+body.dark-mode button:hover {
+    background: #666;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    background: #f1f1f1;
+    border-radius: 10px;
+    margin: 20px;
+    color: #555;
+}
+
+/* Dark Mode Footer */
+body.dark-mode footer {
+    background: #222;
+    color: #ddd;
+}
